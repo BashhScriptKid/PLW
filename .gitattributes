@@ -1,0 +1,15 @@
+# Turn all the LFs in CRLFs
+*						text=auto
+
+# Handle everything else
+
+*.gitattributes			text
+.gitignore				text
+.md						text diff=markdown
+
+*.gitattributes 		linguist-language=gitattributes
+*.sh					text diff=sh eol=lf
+*.bash					text diff=sh eol=lf
+
+Makefile				text diff=makefile eol=lf
+
